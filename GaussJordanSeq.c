@@ -78,7 +78,7 @@ int main(){
    printf("Avant Diagonalization :\n");
    DisplayMatrix(matrixA,dim);
    DisplayVector(vectB,dim);
-   //Diagonalization : #TODO : corriger la diagnolasiation ? vérifier les valeurs de b.
+   //Diagonalization : #TODO : corriger la diagonalisation ? vérifier les valeurs de b.
    for(int i = dim-1; i>=1 ; i--) {
      for (int j = i-1 ; j>=0;j--) {
         matrixA[j] = Diagonalization(matrixA[j],matrixA[j][i],matrixA[i],dim);
