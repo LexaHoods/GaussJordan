@@ -36,14 +36,6 @@ int main(void) {
     FillRandomMatrix(&A,n);
     FillRandomVector(&b,n);
 
-    A[0][0] = 1;
-    A[0][1] = 2;
-    A[1][0] = 3;
-    A[1][1] = 4;
-
-    b[0] = 5;
-    b[1] = 6;
-
     printf("Initial system:\n");
 	DisplayMatrix(A, n);
     DisplayVector(b, n);
